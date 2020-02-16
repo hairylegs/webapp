@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { ReactDOM, render } from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./styles.css";
 import NavBar from "./navBar.js";
@@ -34,5 +34,10 @@ function App() {
   );
 }
 
+const Footer = () => (
+  <footer className="footer">
+    <p>Some footer nonsense!</p>
+  </footer>
+);
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+render([<App key="1" />, <Footer key="2" />], rootElement);
