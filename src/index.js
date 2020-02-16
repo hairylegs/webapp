@@ -8,7 +8,7 @@ import Rentals from "./Rentals";
 import Agents from "./Agents";
 import Press from "./Press";
 import About from "./About";
-import FAQ from "./FAQs";
+import FAQ from "./FAQ";
 import MarketReport from "./MarketReport";
 
 function App() {
