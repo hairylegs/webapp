@@ -9,10 +9,19 @@ body {
   padding: 0;
 }
 
+.top50 {
+  font-size:48px;
+  margin-top:50px;
+  width:100%;
+  text-align:center;
+}
+
+}
 .App {
   font-family: Raleway, sans-serif;
   text-align: center;
   font-size: 12px;
+  margin-bottom: 50px;
 }
 .NavBar {
   border-bottom: 1px groove rgb(221, 221, 221);
@@ -37,9 +46,22 @@ a:link {
   text-decoration: none;
   color: gray;
 }
+
+a:visited:link {
+  text-decoration: none;
+  color: gray;
+}
+
+a:active:link {
+  text-decoration: none;
+  color: gray;
+}
+
 a {
   display: flex;
   align-items: center;
+  color: gray;
+
 }
 
 .Fluff {
@@ -62,13 +84,11 @@ a {
   text-align: center;
   position: fixed;
   bottom: 0;
+  margin-top:50px;
   height: 40px;
   width: 100%;
-  margin-top: 40px;
   background-color: rgba(10, 9, 9, 0.842);
   color: white;
 }
 
-.fakeheight {
-  height: 9000px;
-}
+H1 {text-align:center;text-transform:uppercase;}
