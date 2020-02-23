@@ -368,7 +368,10 @@ const panes = [
       <Tab.Pane>
         <Header as="h1">SERVICES</Header>
         <div>
-          <img src="https://www.olshan.com/images/carterjonas.gif" />
+          <img
+            src="https://www.olshan.com/images/carterjonas.gif"
+            alt="Carter Jonas"
+          />
         </div>
         <p>
           Olshan Realty is pleased to announce its affiliation with Carter

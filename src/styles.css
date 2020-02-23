@@ -105,3 +105,28 @@ H1 {text-align:center;text-transform:uppercase;}
 .active .tab {
   overflow-y:auto;white-space:nowrap;
 }
+
+.MuiAppBar-colorPrimary {
+  color: #gray !important;;
+  background-color: #FFF !important;
+  font-family: "Raleway", sans-serif !important;
+
+}
+
+.MuiAppBar-colorPrimary {
+  color: rgba(0, 0, 0, 0.75) !important;
+  background-color: #fff !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+.MuiPaper-root .MuiAppBar-colorPrimary {
+  color: rgba(0, 0, 0, 0.75) !important;
+  font-family: "Raleway", sans-serif !important;
+}
+
+
+.MuiTypography-body1 {
+  color: rgba(0, 0, 0, 0.65) !important;
+  font-size:12px !important;
+  font-family: Raleway, sans-serif !important;
+}
