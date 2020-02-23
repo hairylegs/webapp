@@ -1,10 +1,11 @@
 html,
 body {
   height: 100%;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway, sans-serif !important;
 }
 
 body {
+  font-family: Raleway, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -27,6 +28,7 @@ body {
   border-bottom: 1px groove rgb(221, 221, 221);
 }
 ul {
+  font-family: Raleway, sans-serif !important;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,6 +39,7 @@ ul {
 }
 
 li {
+  font-family: Raleway, sans-serif !important;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -60,6 +63,7 @@ a:active:link {
 a {
   display: flex;
   align-items: center;
+  color: gray;
 
 }
 
@@ -91,3 +95,13 @@ a {
 }
 
 H1 {text-align:center;text-transform:uppercase;}
+
+.accordion .title .active .item {
+  font-family: Raleway, sans-serif !important;
+
+}
+
+
+.active .tab {
+  overflow-y:auto;white-space:nowrap;
+}

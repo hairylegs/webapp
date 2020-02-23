@@ -8,6 +8,8 @@ import Rentals from "./Rentals";
 import Agents from "./Agents";
 import Press from "./Press";
 import About from "./About";
+import Services from "./Services";
+import Company from "./Company";
 import FAQ from "./FAQ";
 import MarketReport from "./MarketReport";
 import Main from "./Home";
@@ -27,6 +29,8 @@ function App() {
               <Route path="/Agents" component={Agents} />
               <Route path="/Press" component={Press} />
               <Route path="/About" component={About} />
+              <Route path="/Services" component={Services} />
+              <Route path="/Company" component={Company} />
               <Route path="/FAQ" component={FAQ} />
               <Route path="/MarketReport" component={MarketReport} />
             </Switch>
@@ -47,5 +51,3 @@ ReactDOM.render(
   [<App key="1" />, <Main key="2" />, <Example key="3" />, <Footer key="4" />],
   rootElement
 );
-
-export default App;
