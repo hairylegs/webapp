@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <div className="Body">
         <BrowserRouter>
-          <div>
+          <div className="Top">
             <Switch>
               <Route path="./Home" component={Main} />
               <Route path="/Sales" component={Sales} />
