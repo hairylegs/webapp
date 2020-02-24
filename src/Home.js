@@ -37,6 +37,6 @@ document.head.appendChild(styleLink);
 
 const rootElement = document.getElementById("root");
 
-ReactDOM.render([<Main key="1" />, <Example key="2" />], rootElement);
+ReactDOM.render([<Main />, <Example />], rootElement);
 
 export default Main;
