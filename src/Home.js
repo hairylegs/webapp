@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
 import { Carousel } from "react-responsive-carousel";
-import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
 import Main1 from "./images/509467.jpg";
 import Main2 from "./images/18694126.jpg";
 import Main3 from "./images/18717721.jpg";
@@ -36,7 +35,6 @@ styleLink.href =
 document.head.appendChild(styleLink);
 
 const rootElement = document.getElementById("root");
-
 ReactDOM.render([<Main />, <Example />], rootElement);
 
 export default Main;
