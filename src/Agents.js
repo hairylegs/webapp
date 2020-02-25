@@ -31,7 +31,7 @@ const GridExampleStackable = () => (
               </div>
             </div>
             <div class="extra content">
-              <a href="/" alt="AGENT BIO">
+              <a href="/Agent" alt="AGENT BIO">
                 <i
                   aria-hidden="true"
                   class="arrow alternate circle right outline icon"
@@ -63,7 +63,7 @@ const GridExampleStackable = () => (
             </div>
           </div>
           <div class="extra content">
-            <a href="/" alt="AGENT BIO">
+            <a href="/Agent" alt="AGENT BIO">
               <i
                 aria-hidden="true"
                 class="arrow alternate circle right outline icon"
@@ -92,7 +92,7 @@ const GridExampleStackable = () => (
             </div>
           </div>
           <div class="extra content">
-            <a href="/" alt="AGENT BIO">
+            <a href="/Agent" alt="AGENT BIO">
               <i
                 aria-hidden="true"
                 class="arrow alternate circle right outline icon"
@@ -123,7 +123,7 @@ const GridExampleStackable = () => (
             </div>
           </div>
           <div class="extra content">
-            <a href="/" alt="AGENT BIO">
+            <a href="/Agent" alt="AGENT BIO">
               <i
                 aria-hidden="true"
                 class="arrow alternate circle right outline icon"
@@ -154,7 +154,7 @@ const GridExampleStackable = () => (
             </div>
           </div>
           <div class="extra content">
-            <a href="/" alt="AGENT BIO">
+            <a href="/Agent" alt="AGENT BIO">
               <i
                 aria-hidden="true"
                 class="arrow alternate circle right outline icon"
@@ -187,7 +187,7 @@ const GridExampleStackable = () => (
             </div>
           </div>
           <div class="extra content">
-            <a href="/" alt="AGENT BIO">
+            <a href="/Agent" alt="AGENT BIO">
               <i
                 aria-hidden="true"
                 class="arrow alternate circle right outline icon"
@@ -218,7 +218,7 @@ const GridExampleStackable = () => (
             </div>
           </div>
           <div class="extra content">
-            <a href="/" alt="AGENT BIO">
+            <a href="/Agent" alt="AGENT BIO">
               <i
                 aria-hidden="true"
                 class="arrow alternate circle right outline icon"

@@ -20,6 +20,8 @@ import Logo from "./images/OlshanRealtylogo.png";
 import Sales from "./Sales";
 import Rentals from "./Rentals";
 import Agents from "./Agents";
+
+import Agent from "./Agent";
 import Press from "./Press";
 import About from "./About";
 import Services from "./Services";
@@ -110,6 +112,8 @@ export default function PersistentDrawerRight() {
             <Route path="/Sales" component={Sales} />
             <Route path="/Rentals" component={Rentals} />
             <Route path="/Agents" component={Agents} />
+
+            <Route path="/Agent" component={Agent} />
             <Route path="/Press" component={Press} />
             <Route path="/About" component={About} />
             <Route path="/Services" component={Services} />

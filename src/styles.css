@@ -1,8 +1,11 @@
+.ui.segment {
+  margin-right: 0.0125em !important;
+}
 html,
 body {
   height: 100%;
   font-family: Raleway, sans-serif !important;
-  padding: 50px 5px 0 5px;
+  margin: 50px 0 0 5px !important;
 }
 
 .Body {
@@ -16,6 +19,10 @@ body {
   margin-top: 50px;
   width: 100%;
   text-align: center;
+}
+
+.top20 {
+  margin-top: 20px;
 }
 
 .App {
@@ -129,8 +136,8 @@ h1 {
   font-family: Raleway, sans-serif !important;
 }
 
-.ui .card a:link a:visited {
-  color: #ff6666;
+.ui .card .grid a:link a:visited {
+  color: #ff6666 !important;
 }
 
 i.icon {
@@ -144,7 +151,7 @@ i.icon {
   text-align: right !important;
 }
 
-.ui .card a:hover {
+.ui .card .grid a:hover {
   color: rgb(0, 0, 0);
 }
 
@@ -168,4 +175,8 @@ i.icon {
   height: 1em !important;
   font-family: Icons !important;
   text-align: right !important;
+}
+
+.imageBorder {
+  border: 1px solid black;
 }

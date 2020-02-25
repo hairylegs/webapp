@@ -8,15 +8,16 @@ const ContainerExampleFluid = () => (
       <Header as="h1">COMPANY</Header>
 
       <p>
-        Founded in 1980, and is one of New York City's leading boutique
-        residential brokerage firms, specializing in residential sales, rentals,
-        corporate relocation, investments, and property management. The company
-        has been a marketing trendsetter by deploying social media and
-        technology. Olshan Realty also was the first company in Manhattan to
-        have a corporate relocation department, and has represented Fortune 500
-        relocating executives from Sony, Verizon, Mercedes Benz, DuPont,
-        Time-Warner, Mobil, Exxon, J.C. Penney, W.R. Grace, Citicorp, Goldman
-        Sachs, Credit-Suisse and Deutsche Bank among others.
+        Olshan Realty, Inc. was founded in 1980, and is one of New York City's
+        leading boutique residential brokerage firms, specializing in
+        residential sales, rentals, corporate relocation, investments, and
+        property management. The company has been a marketing trendsetter by
+        deploying social media and technology. Olshan Realty also was the first
+        company in Manhattan to have a corporate relocation department, and has
+        represented Fortune 500 relocating executives from Sony, Verizon,
+        Mercedes Benz, DuPont, Time-Warner, Mobil, Exxon, J.C. Penney, W.R.
+        Grace, Citicorp, Goldman Sachs, Credit-Suisse and Deutsche Bank among
+        others.
       </p>
       <p>
         <Header as="h3">SALES FORCE</Header>
