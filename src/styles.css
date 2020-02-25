@@ -98,14 +98,7 @@ a {
 h1 {
   text-align: center;
   text-transform: uppercase;
-}
-
-.accordion .title .active .item {
-  font-family: Raleway, sans-serif !important;
-}
-
-.accordion .ui {
-  width: 100%;
+  margin-top: 100px;
 }
 
 .active .tab {
@@ -157,4 +150,22 @@ i.icon {
 
 .ui .card .description {
   font-weight: bold;
+}
+
+.accordion .title .active .item {
+  font-family: Raleway, sans-serif !important;
+}
+
+.accordion .ui {
+  width: 100% !important;
+}
+
+.ui i.icon.dropdown {
+  color: #ff6666;
+  opacity: 1;
+  width: 1em !important;
+  font-size: 1.5em !important;
+  height: 1em !important;
+  font-family: Icons !important;
+  text-align: right !important;
 }
