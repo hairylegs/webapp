@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import clsx from "clsx";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
@@ -105,6 +105,7 @@ export default function PersistentDrawerRight() {
       <BrowserRouter>
         <div>
           <Switch>
+            <Redirect exact from="/" to="/Home" />
             <Route path="./Home" component={Main} />
             <Route path="/Sales" component={Sales} />
             <Route path="/Rentals" component={Rentals} />
@@ -131,9 +132,7 @@ export default function PersistentDrawerRight() {
               component={Link}
               to="/"
             >
-              <a href>
-                <img border="0" alt="logo" src={Logo} width="280" height="50" />
-              </a>{" "}
+              <img border="0" alt="logo" src={Logo} width="280" height="50" />
             </Typography>
 
             <IconButton
