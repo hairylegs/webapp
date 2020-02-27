@@ -84,7 +84,7 @@ const ImageExampleFloated = () => (
       Lectureship Series at Brooklyn Hospital which features world-renowned
       doctors speaking on various cutting-edge topics in the medical field.
     </p>
-    <Header as="h2">CURRENT LISTINGS</Header>
+    <Header as="h2">DONNA'S CURRENT LISTINGS</Header>
     <hr />
     <div class="ui  two column grid">
       <div class="column">

@@ -5,7 +5,8 @@ html,
 body {
   height: 100%;
   font-family: Raleway, sans-serif !important;
-  margin: 50px 0 0 5px !important;
+  margin: 50px 0 0 0px !important;
+  background-color: #fff !important;
 }
 
 .Body {
@@ -107,6 +108,19 @@ h1 {
   text-transform: uppercase;
   margin-top: 100px;
 }
+.propertyaddress {
+  text-align: left !important;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 10px;
+}
+
+.propertywebid {
+  text-align: left !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #ff6666;
+}
 
 .active .tab {
   overflow-y: auto;
@@ -179,4 +193,108 @@ i.icon {
 
 .imageBorder {
   border: 1px solid black;
+}
+
+.carousel {
+  width: 105% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  text-align: left;
+}
+
+.Carousel {
+  width: 104% !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #fff !important;
+  text-align: left;
+}
+
+.carousel .slide {
+  background-color: #fff !important;
+}
+
+.ui.container {
+  width: auto !important;
+  margin-left: 0em !important;
+  margin-right: 0em !important;
+  max-width: 100% !important;
+  border: 0px;
+}
+
+.ui.labeled .icon {
+  width: 1em !important;
+}
+
+.ui.labeled .item {
+  max-width: 20px !important;
+  padding: 5px;
+  margin-right: 0;
+  float: right;
+  border: 0px;
+}
+
+div.ui.labeled.icon.menu {
+  margin-left: 50px;
+  border: 0px;
+  max-width: 320px;
+  float: right;
+  font-size: 1em;
+}
+
+div .desc {
+  padding: 20px 0 0 80px;
+  width: 100%;
+  font-size: 1.25em;
+  text-align: justify;
+}
+
+._2rRxbhZfd2m69aGyclMHup {
+  font-family: "Raleway", sans-serif;
+
+  font-size: 12px;
+  max-width: 250px;
+  padding: 0.5em;
+  background-color: #fff;
+  border: 1px solid var(--secondary-one);
+}
+
+div._2rRxbhZfd2m69aGyclMHup input {
+  width: 100%;
+  text-indent: 1em;
+  font-size: 12px;
+  padding: 0.7em;
+  margin: 0 0 0.2em 0;
+  border: 1px solid var(--secondary-one-light);
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+div._3N7LQgadYQG6Efvq5phiUY select {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+div._2QxqScDSDuK4P0ny7KZKNr {
+  display: none;
+}
+
+div._39yvVzrxrpb0jfSJ06VKQG button {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  background-color: #ff6666;
+}
+
+div._3gGF3MGRKxzQZh6RczOEoz {
+  background-color: #ccc;
+}
+
+div._1b3zzIo85pUJ3f_AHItArg {
+  border-bottom: #ff6666;
+  padding: 0.5em, 5em 0.5em 0;
+}
+
+div.jAN-uedtUK0ALBwN8-1Q0 {
+  border-bottom: #ff6666;
+  padding: 0.5em, 5em 0.5em 0;
 }
