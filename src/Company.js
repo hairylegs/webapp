@@ -8,7 +8,7 @@ const ContainerExampleFluid = () => (
       <Header as="h1">COMPANY</Header>
 
       <p>
-        Olshan Realty Inc., was founded in 1980, and is one of New York City's
+        Olshan Realty, Inc. was founded in 1980, and is one of New York City's
         leading boutique residential brokerage firms, specializing in
         residential sales, rentals, corporate relocation, investments, and
         property management. The company has been a marketing trendsetter by

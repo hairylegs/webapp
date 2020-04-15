@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import clsx from "clsx";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
@@ -17,9 +17,11 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Logo from "./images/OlshanRealtylogo.png";
-import Sales from "./Sales";
+import Sales from "./Property";
 import Rentals from "./Rentals";
 import Agents from "./Agents";
+import Property from "./Property";
+import Agent from "./Agent";
 import Press from "./Press";
 import About from "./About";
 import Services from "./Services";
@@ -105,10 +107,13 @@ export default function PersistentDrawerRight() {
       <BrowserRouter>
         <div>
           <Switch>
+            <Redirect exact from="/" to="/Home" />
             <Route path="./Home" component={Main} />
-            <Route path="/Sales" component={Sales} />
+            <Route path="/Property" component={Sales} />
             <Route path="/Rentals" component={Rentals} />
             <Route path="/Agents" component={Agents} />
+            <Route path="/Property" component={Property} />
+            <Route path="/Agent" component={Agent} />
             <Route path="/Press" component={Press} />
             <Route path="/About" component={About} />
             <Route path="/Services" component={Services} />
@@ -131,9 +136,7 @@ export default function PersistentDrawerRight() {
               component={Link}
               to="/"
             >
-              <a href>
-                <img border="0" alt="logo" src={Logo} width="280" height="50" />
-              </a>{" "}
+              <img border="0" alt="logo" src={Logo} width="280" height="50" />
             </Typography>
 
             <IconButton
@@ -176,7 +179,7 @@ export default function PersistentDrawerRight() {
 
           <List component="nav">
             {["SALES"].map((text, index) => (
-              <ListItem button key={text} component={Link} to="/Sales">
+              <ListItem button key={text} component={Link} to="/Property">
                 <ListItemText primary={text} />
               </ListItem>
             ))}

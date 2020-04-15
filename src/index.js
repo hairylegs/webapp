@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
-
-import Main from "./Home";
-import Example from "./example";
 import Demo from "./demo";
 
 function App() {
@@ -21,12 +18,7 @@ const Footer = () => (
 );
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  [
-    <Demo key="1" />,
-    <App key="2" />,
-    <Main key="3" />,
-    <Example key="4" />,
-    <Footer key="5" />
-  ],
+  [<Demo key="1" />, <App key="2" />, <Footer key="5" />],
   rootElement
 );
+export default App;
