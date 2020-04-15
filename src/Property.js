@@ -145,8 +145,9 @@ const ContainerExampleContainer = () => (
               <h3 class="propertyaddress">MORTGAGE CALCULATOR </h3>
               <MortgageCalculator />
             </div>
-            <div class="column" />
-            <img src={Main5} alt="215 Chrystie 28W - FLOORPLAN" />
+            <div class="column">
+              <img width="350" src={Main5} alt="215 Chrystie 28W - FLOORPLAN" />
+            </div>
           </div>
         </div>
       </Grid.Row>
